@@ -1,3 +1,4 @@
+//mongoose is a driver that helps to connect database with Nodejs
 const mongoose = require('mongoose');//import mongoose driver for connecting database with Nodejs
 const mongoURL = 'mongodb://localhost:27017/mydatabase'//define the URL using this format we have to maintain this format and we can give any name instead of mydatabase
 mongoose.connect(mongoURL);//connect the database
