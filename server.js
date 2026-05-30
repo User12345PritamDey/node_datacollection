@@ -9,6 +9,7 @@ const mroute = require('./routes/menuroute.js');
 app.use('/menu',mroute);
 const student = require('./routes/studentroute.js');
 app.use('/student',student);
+//add your portnumber
 app.listen(7000,()=>{
     console.log("localhost port number");
 })
