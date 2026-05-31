@@ -2,3 +2,4 @@
 node_modules/
 //To Stop tracking a file, but keep it on computer
 //git rm --catched filename
+.env
