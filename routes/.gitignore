@@ -1,5 +1,7 @@
 # Ignore node_modules directory
+# if folder then filder_name/
+#if file only file name
 node_modules/
-//To Stop tracking a file, but keep it on computer
-//git rm --catched filename
+#To Stop tracking a file, but keep it on computer
+#git rm --cached filename
 .env
